@@ -37,6 +37,9 @@ class States extends Country{
         states = {}
         if(this.numberOfLGAs){
             states.abia = 1
+            states.borno = 2
+            states.uyo = 5
+            states.lagos = 10
             console.log(states)
         } else{
             console.log("there is no local govt in the state")
